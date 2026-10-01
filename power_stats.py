@@ -9,7 +9,7 @@ def format_voltage(value):
     return f"{volts:.2f}V"
 
 
-r = requests.get('http://192.168.1.3/api/system/info')
+r = requests.get('http://X.X.X.X/api/system/info') #Replace with your IP
 print(f"[+] AxeOS Power Stats [-]")
 
 #power
